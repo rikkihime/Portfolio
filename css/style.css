@@ -3,7 +3,7 @@ body {
     color: #000;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .container {
@@ -29,16 +29,13 @@ h1 {
 
 h2 {
     font-size: 24px;
-    font-family: "PT Sans", Arial, sans-serif;
     line-height: 38px;
-    font-weight: 400; 
 }
 
 h3 {
     font-size: 22px;
     font-style: italic;
     color: #404040;
-    font-family: "PT Sans", Arial, sans-serif;
     line-height: 38px
 }
 
@@ -61,7 +58,7 @@ h3 {
 .main-nav {
     float: right;
     font-weight: 400;
-    font-family: "PT Sans Narrow", Arial, Sans sans-serif;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 16.5px;
 }
 
@@ -193,19 +190,6 @@ h3 {
     position: relative;
 }
 
-/*
-.skills-list li::after {
-    content: "";
-    width: 198px;
-    height: 10px;
-    position: absolute;
-    background-color: #e27878;
-    top: 5px;
-    left: 26px; 
-    z-index: 10;
-}
-*/
-
 .skills-list span {
     display: inline-block;
     width: 198px;
@@ -217,7 +201,7 @@ h3 {
     z-index: 10
 }
 
-.skills-list .skill-1::after  {
+.skill-1::after  {
     content: "";
     width: 110px;
     height: 10px;
@@ -228,7 +212,7 @@ h3 {
     z-index: 20;
 }
 
-.skills-list .skill-2::after  {
+.skill-2::after  {
     content: "";
     width: 157px;
     height: 10px;
@@ -239,7 +223,7 @@ h3 {
     z-index: 20;
 }
 
-.skills-list .skill-3::after  {
+.skill-3::after  {
     content: "";
     width: 55px;
     height: 10px;
@@ -250,7 +234,7 @@ h3 {
     z-index: 20;
 }
 
-.skills-list .skill-4::after  {
+.skill-4::after  {
     content: "";
     width: 185px;
     height: 10px;
