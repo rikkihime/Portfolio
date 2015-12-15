@@ -1,16 +1,17 @@
 body {
-    background-color: #fff;
+    background: #F2EED8 url(../img/bg-texture.png);
     color: #000;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
+    color: #475556;
 }
 
 .container {
     width: 1004px;
     padding: 0 10px;
     margin: 0 auto;
-    outline: 1px solid grey;
+/*    outline: 1px solid grey;*/
 }
 
 .clearfix::after {
@@ -23,7 +24,7 @@ h1 {
     font-size: 36px;
     line-height: 36px;
     font-weight: 700;
-    font-family: "PT Sans Narrow", Arial, Sans sans-serif;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
     margin: 0;
 }
 
@@ -35,24 +36,26 @@ h2 {
 h3 {
     font-size: 22px;
     font-style: italic;
-    color: #404040;
     line-height: 38px
+}
+
+.main-header {
 }
 
 .title {
     float: left;
-    margin-top: 35px;
+    margin-top: 25px;
+    padding-bottom: 15px;
 }
 
 .title h1 {
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
 }
 
 .title p {
     font-family: Arial, sans-serif;
     font-size: 14.5px;
     margin: 0 1px;
-    color: #404040;
 }
 
 .main-nav {
@@ -68,7 +71,7 @@ h3 {
     vertical-align: top;
     text-transform: uppercase;
     text-decoration: none;
-    color: #404040;
+    color: #475556;
     padding: 47px 12px 10px;
     margin-right: 8px;
     
@@ -79,24 +82,25 @@ h3 {
 }
 
 .main-nav .check {
-    background-color: #d45e5e;
+    background-color: #475556;
     color: #fff;
 }
 
 .main-nav a:hover {
     color: #666;
+    text-shadow: 0 0 3px;
 }
 
 .head-text {
     padding: 111px 230px 0px;
     width: 510px;
     text-align: center;
-    background: #fff url("../img/quotes.png") no-repeat 460px 75px;
+/*    background: #F2EED8 url("../img/quotes.png") no-repeat 460px 75px;*/
     
 }
 
 .vertical-line {
-    background: #fff url("../img/line-header.png") no-repeat;
+    background: #F2EED8 url("../img/line-header.png") no-repeat;
     height: 15px;
     margin-top: 5px;
     margin-bottom: 68px;
@@ -120,13 +124,17 @@ h3 {
     margin-bottom: 31px;
 }
 
+.pic:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
 .pic:nth-child(4n) {
     margin-right: 0;
 }
 
 .bio {
     margin-top: 90px;
-    background-color: #d45e5e;
+    background-color: #568A7E;
     color: #fff;
     min-width: 1024px;
 }
@@ -146,7 +154,7 @@ h3 {
     background: #ccc url("../pict/photo.png");
     top: -57px;
     left: 33px;
-    border: 7px solid #fff;
+    border: 7px solid #475556;
     
 }
 
@@ -194,10 +202,10 @@ h3 {
     display: inline-block;
     width: 198px;
     height: 10px;
-    background-color: #e27878;
+    background-color: #F2EED8;
     position: absolute;
     top: 5px;
-    left: 26px;
+    left: 60px;
     z-index: 10
 }
 
@@ -206,9 +214,9 @@ h3 {
     width: 110px;
     height: 10px;
     position: absolute;
-    background-color: #282828;
+    background-color: #475556;
     top: 5px;
-    left: 26px; 
+    left: 60px; 
     z-index: 20;
 }
 
@@ -217,9 +225,9 @@ h3 {
     width: 157px;
     height: 10px;
     position: absolute;
-    background-color: #282828;
+    background-color: #475556;
     top: 5px;
-    left: 26px; 
+    left: 60px; 
     z-index: 20;
 }
 
@@ -228,9 +236,9 @@ h3 {
     width: 55px;
     height: 10px;
     position: absolute;
-    background-color: #282828;
+    background-color: #475556;
     top: 5px;
-    left: 26px; 
+    left: 60px; 
     z-index: 20;
 }
 
@@ -239,16 +247,16 @@ h3 {
     width: 185px;
     height: 10px;
     position: absolute;
-    background-color: #282828;
+    background-color: #475556;
     top: 5px;
-    left: 26px; 
+    left: 60px; 
     z-index: 20;
 }
 
 footer {
     min-height: 39px;
     min-width: 1024px;
-    background-color: #282828;
+    background-color: #475556;
 }
 
 footer .copy {
