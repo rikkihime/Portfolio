@@ -221,45 +221,43 @@ h3 {
     transition: 0.5s;
 }
 
-.skill-1 span::before{
+.skill-1 span::before,
+.skill-2 span::before,
+.skill-3 span::before,
+.skill-4 span::before,
+.skill-5 span::before {
     content: "";
     position: absolute;
     background-color: #475556;
     top: 0;
     left: 0;
-    height: 10px;
-    width: 70%;
+    height: 10px; 
     z-index: 40;
     opacity: 1;
-    transform-origin: 100% 0% ;
+    transform-origin: 100% 0% ; 
+}
+
+.skill-1 span::before {
+    width: 70%;
     animation: loader1 5s ease-in-out infinite;
 }
 
-@-webkit-keyframes loader1{
+@-webkit-keyframes loader1 { 
     0%{width: 0px;}
     70%{width: 70%; opacity: 1;}
     90%{opacity: 0; width: 70%;}
     100%{opacity: 0;width: 0px;}
 }
 
-@keyframes loader1{
+@keyframes loader1 {
     0%{width: 0px;}
     70%{width: 70%; opacity: 1;}
     90%{opacity: 0; width: 70%;}
     100%{opacity: 0;width: 0px;}
 }
 
-.skill-2 span::before{
-    content: "";
-    position: absolute;
-    background-color: #475556;
-    top: 0px;
-    left: 0px;
-    height: 10px;
+.skill-2 span::before {
     width: 70%;
-    z-index: 40;
-    opacity: 1;
-    transform-origin: 100% 0% ;
     animation: loader2 5s ease-in-out infinite;
 }
 
@@ -277,17 +275,8 @@ h3 {
     100%{opacity: 0;width: 0px;}
 }
 
-.skill-3 span::after  {
-    content: "";
-    height: 10px;
-    position: absolute;
-    background-color: #475556;
-    top: 0;
-    left: 0; 
+.skill-3 span::before  {
     width: 20%;
-    z-index: 40;
-    opacity: 1;
-    transform-origin: 100% 0% ;
     animation: loader3 5s ease-in-out infinite;
 }
 
@@ -305,17 +294,8 @@ h3 {
     100%{opacity: 0;width: 0px;}
 }
 
-.skill-4 span::after  {
-    content: "";
-    height: 10px;
+.skill-4 span::before  {
     width: 90%;
-    position: absolute;
-    background-color: #475556;
-    top: 0;
-    left: 0; 
-    z-index: 40;
-    opacity: 1;
-    transform-origin: 100% 0% ;
     animation: loader4 5s ease-in-out infinite;
 }
 
@@ -330,6 +310,25 @@ h3 {
     0%{width: 0px;}
     70%{width: 90%; opacity: 1;}
     90%{opacity: 0; width: 90%;}
+    100%{opacity: 0;width: 0px;}
+}
+
+.skill-5 span::before  {
+    width: 70%;
+    animation: loader5 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes loader5{
+    0%{width: 0px;}
+    70%{width: 70%; opacity: 1;}
+    90%{opacity: 0; width: 70%;}
+    100%{opacity: 0;width: 0px;}
+}
+
+@keyframes loader5{
+    0%{width: 0px;}
+    70%{width: 70%; opacity: 1;}
+    90%{opacity: 0; width: 70%;}
     100%{opacity: 0;width: 0px;}
 }
 
