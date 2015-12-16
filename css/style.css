@@ -11,7 +11,7 @@ body {
     width: 1004px;
     padding: 0 10px;
     margin: 0 auto;
-/*    outline: 1px solid grey;*/
+    outline: 1px solid grey;
 }
 
 .clearfix::after {
@@ -40,6 +40,10 @@ h3 {
 }
 
 .main-header {
+    position: relative;
+}
+
+.title-and-nav {
 }
 
 .title {
@@ -59,14 +63,16 @@ h3 {
 }
 
 .main-nav {
+    position: fixed;
+    left: 770px;
     float: right;
     font-weight: 400;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 16.5px;
+    background: #F2EED8 url(../img/bg-texture.png);
 }
 
-.main-nav a,
-.main-nav span{
+.main-nav a {
     display: inline-block;
     vertical-align: top;
     text-transform: uppercase;
