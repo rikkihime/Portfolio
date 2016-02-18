@@ -1,17 +1,20 @@
 body {
     background: #F2EED8 url(../img/bg-texture.png);
-    color: #000;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #475556;
+    position: relative;
+    padding-top: 100px;
 }
 
 .container {
     width: 1004px;
     padding: 0 10px;
     margin: 0 auto;
-    outline: 1px solid grey;
+/*    outline: 1px solid grey;*/
+    position: relative;
+    z-index: 10;
 }
 
 .clearfix::after {
@@ -40,10 +43,14 @@ h3 {
 }
 
 .main-header {
-    position: relative;
-}
-
-.title-and-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: auto;
+    right: auto;
+    background: #F2EED8 url(../img/bg-texture.png);
+    z-index: 1000;
+    box-shadow: 1px 19px 48px -38px #000000;
 }
 
 .title {
@@ -63,7 +70,7 @@ h3 {
 }
 
 .main-nav {
-    position: fixed;
+/*    position: fixed;*/
     left: 770px;
     float: right;
     font-weight: 400;
@@ -84,7 +91,8 @@ h3 {
 }
 
 .main-nav a:last-child {
-    margin-right: 29px;
+    margin-right: 0px;
+    padding-right: 1px;
 }
 
 .main-nav .check {
@@ -97,19 +105,10 @@ h3 {
     text-shadow: 0 0 3px;
 }
 
-.head-text {
-    padding: 111px 230px 0px;
-    width: 510px;
-    text-align: center;
-/*    background: #F2EED8 url("../img/quotes.png") no-repeat 460px 75px;*/
-    
-}
-
 .vertical-line {
-    background: #F2EED8 url("../img/line-header.png") no-repeat;
+    background: #F2EED8 url("../img/line-header.png") no-repeat center;
     height: 15px;
     margin-top: 5px;
-    margin-bottom: 68px;
 }
 
 .portfolio h3 {
@@ -157,7 +156,7 @@ h3 {
     width: 123px;
     height: 123px;
     position: absolute;
-    background: #ccc url("../pict/photo.png");
+    background: #ccc url("../pict/.png");
     top: -57px;
     left: 33px;
     border: 7px solid #475556;
